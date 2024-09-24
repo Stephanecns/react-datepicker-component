@@ -1,7 +1,7 @@
 {
   "name": "react-datepicker-component",
   "version": "0.1.0",
-  "private": true,
+  "private": false,
   "dependencies": {
     "@testing-library/jest-dom": "^5.17.0",
     "@testing-library/react": "^13.4.0",
@@ -35,5 +35,19 @@
       "last 1 firefox version",
       "last 1 safari version"
     ]
-  }
+  },
+  "description": "A simple React date picker component",
+  "main": "DatePicker.js",
+  "devDependencies": {},
+  "keywords": [
+    "react",
+    "datepicker",
+    "calendar",
+    "form",
+    "date-picker",
+    "plugin",
+    "jquery-conversion"
+  ],
+  "author": "Stéphane Cineas",
+  "license": "MIT"
 }
