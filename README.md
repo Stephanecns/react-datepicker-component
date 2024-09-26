@@ -17,7 +17,8 @@ Ce dépôt contient un composant React qui remplace le plugin jQuery `datetimepi
 Pour installer ce composant via **npm**, exécutez la commande suivante dans votre projet React :
 
 ```bash
-npm install react-datepicker-component
+npm install react-datepicker-component-stephoc
+
 ```
 
 ## Utilisation
