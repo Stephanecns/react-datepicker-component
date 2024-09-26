@@ -1,5 +1,4 @@
 
-
 ---
 
 # Composant React CustomDatePicker
@@ -9,35 +8,25 @@ Ce dépôt contient un composant React qui remplace le plugin jQuery `datetimepi
 ## Fonctionnalités
 
 - **Basé sur React** : Converti à partir du plugin jQuery `datetimepicker`.
-- **Format de date personnalisable** : Le format par défaut est `MM/dd/yyyy`, mais il peut être modifié selon vos besoins.
+- **Format de date personnalisable** : Le format par défaut est `MM/dd/yyyy`, mais il peut être modifié.
 - **Réutilisable** : Ce composant peut être intégré et réutilisé dans n'importe quelle application React.
 - **Stylisable** : Personnalisez le style du sélecteur de date selon les exigences de votre projet.
 
 ## Installation
 
-1. Clonez ce dépôt dans votre projet :
+Pour installer ce composant via **npm**, exécutez la commande suivante dans votre projet React :
 
-   ```bash
-   git clone https://github.com/ton-compte-github/custom-datepicker.git
-   ```
-
-2. Installez les dépendances requises :
-
-   ```bash
-   npm install react-datepicker
-   ```
-
-3. Importez et utilisez le composant dans votre projet React :
-
-   ```javascript
-   import CustomDatePicker from './CustomDatePicker';
-   ```
+```bash
+npm install react-datepicker-component
+```
 
 ## Utilisation
 
-```jsx
+Voici un exemple d'utilisation dans un projet React :
+
+```js
 import React, { useState } from 'react';
-import CustomDatePicker from './CustomDatePicker';
+import CustomDatePicker from 'react-datepicker-component';
 
 const MyComponent = () => {
   const [selectedDate, setSelectedDate] = useState(null);
@@ -59,13 +48,19 @@ export default MyComponent;
 
 ## Propriétés du composant
 
-- **label** : Label du champ de sélection de date (ex : "Date de naissance").
-- **selectedDate** : La date actuellement sélectionnée.
-- **onChange** : Fonction pour mettre à jour la date sélectionnée.
+- **label** : *string* - Label du champ de sélection de date (ex : "Date de naissance").
+- **selectedDate** : *Date* - La date actuellement sélectionnée.
+- **onChange** : *function* - Fonction pour mettre à jour la date sélectionnée.
+- **className** : *string* - (optionnel) Classes CSS pour personnaliser le style.
 
 ## Personnalisation
 
-Vous pouvez personnaliser le composant en passant des classes CSS et en modifiant les styles via le fichier CSS associé à `react-datepicker`.
+Vous pouvez personnaliser le composant en passant des classes CSS ou en modifiant les styles via le fichier CSS associé à `react-datepicker`.
+
+## Licence
+
+Ce projet est sous licence MIT.
 
 ---
+
 
